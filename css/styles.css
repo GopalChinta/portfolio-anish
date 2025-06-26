@@ -1,0 +1,194 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+  color: #111;
+  padding-top: 80px;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Navbar */
+.navbar .nav-link {
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+/* Hero Section */
+.gradient-badge {
+  background: linear-gradient(90deg, #00f0ff, #929292);
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #333;
+  text-decoration: underline;
+}
+
+.profile-blob {
+width: 719.44921875;
+height: 712.418212890625;
+top: 192px;
+left: 1116px;
+border-top-left-radius: 170px;
+border-top-right-radius: 300px;
+border-bottom-right-radius: 300px;
+border-bottom-left-radius: 800px;   
+}
+
+.profile-img {
+   
+ width: 500px;
+height: 575.349853515625px;
+top: 253px;
+left: 1175px;
+border-top-left-radius: 170px;
+border-top-right-radius: 300px;
+border-bottom-right-radius: 300px;
+border-bottom-left-radius: 800px;
+
+}
+.vector-1{
+    width: 506.99999151325244;
+height: 529.9999911282521;
+top: 476.9px;
+left: 1835.45px;
+transform: rotate(-122.52deg);
+background: #FFF500;
+box-shadow: 0px 25px 50px 0px #00000040;
+
+
+}
+
+/* Buttons */
+.btn-warning {
+  background-color: #ff6600;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.btn-dark {
+  background-color: #111;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+/* About Section */
+.about-section {
+  background-color: #fff;
+  position: relative;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.about-title {
+  font-size: 2rem;
+}
+
+.about-divider {
+  width: 120px;
+  border: 1px solid #222;
+  margin-bottom: 1.5rem;
+}
+
+.about-hand {
+  
+  transform: rotate(90deg);
+  width: 799.9999474501255;
+height: 580.0000229364933;
+top: 900px;
+left: 525px;
+
+
+
+}
+
+.about-blob {
+  background: #f5f5f5;
+  clip-path: ellipse(65% 50% at 50% 50%);
+  padding: 2rem;
+  display: inline-block;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  margin-top: 50px;
+  transition: background-color 0.4s ease;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #111;
+  color: #f0f0f0;
+}
+
+.dark-mode .navbar {
+  background-color: #222 !important;
+}
+
+.dark-mode .btn-dark {
+  background-color: #f0f0f0;
+  color: #111;
+}
+
+.dark-mode .btn-warning {
+  background-color: #ffa500;
+}
+
+.dark-mode .gradient-badge {
+  background: linear-gradient(90deg, #00f0ff, #333);
+}
+
+.dark-mode .highlight {
+  color: #ffa500;
+}
+
+.dark-mode .profile-blob {
+  background: #333;
+}
+
+.dark-mode .about-section {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+.dark-mode .about-divider {
+  border-color: #fff;
+}
+
+.dark-mode .about-title {
+  color: #fff;
+}
+
+.dark-mode .about-hand {
+  filter: brightness(0.9) contrast(1.2);
+}
+
+.dark-mode footer {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .profile-img {
+    width: 180px;
+  }
+
+  .about-hand {
+    width: 200px;
+  }
+
+  .about-title {
+    font-size: 1.6rem;
+  }
+}
